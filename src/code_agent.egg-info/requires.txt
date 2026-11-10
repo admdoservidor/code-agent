@@ -1,4 +1,5 @@
 langchain
+langchain-google-genai>=4.4.3
 langchain-groq
 langgraph
 langgraph-checkpoint-sqlite>=3.1.3

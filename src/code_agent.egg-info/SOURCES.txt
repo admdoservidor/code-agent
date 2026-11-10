@@ -12,8 +12,16 @@ src/code_agent/core/config.py
 src/code_agent/core/prompts.py
 src/code_agent/llm/provider.py
 src/code_agent/memory/checkpointer.py
-src/code_agent/memory/code_analysis.py
 src/code_agent/services/conversation.py
 src/code_agent/tools/code_analysis.py
+src/code_agent/tools/code_generator.py
+src/code_agent/tools/error_analyzer.py
+src/code_agent/tools/file_editor.py
 src/code_agent/tools/project.py
+src/code_agent/tools/test_runner.py
+tests/test_calculadora.py
+tests/test_code_generator.py
+tests/test_error_analyzer.py
+tests/test_file_editor.py
 tests/test_project.py
+tests/test_test_runner.py

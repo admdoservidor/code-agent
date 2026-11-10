@@ -4,6 +4,7 @@ Version: 0.1.0
 Summary: AI Coding Agent using LangChain and Groq
 Requires-Python: >=3.11
 Requires-Dist: langchain
+Requires-Dist: langchain-google-genai>=4.4.3
 Requires-Dist: langchain-groq
 Requires-Dist: langgraph
 Requires-Dist: langgraph-checkpoint-sqlite>=3.1.3

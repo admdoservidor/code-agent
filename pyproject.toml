@@ -9,6 +9,7 @@ description = "AI Coding Agent using LangChain and Groq"
 requires-python = ">=3.11"
 dependencies = [
     "langchain",
+    "langchain-google-genai>=4.4.3",
     "langchain-groq",
     "langgraph",
     "langgraph-checkpoint-sqlite>=3.1.3",
