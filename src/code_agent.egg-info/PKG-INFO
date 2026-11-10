@@ -6,4 +6,7 @@ Requires-Python: >=3.11
 Requires-Dist: langchain
 Requires-Dist: langchain-groq
 Requires-Dist: langgraph
+Requires-Dist: langgraph-checkpoint-sqlite>=3.1.3
+Requires-Dist: pytest>=9.2.0
 Requires-Dist: python-dotenv
+Requires-Dist: ruff>=0.17.4
