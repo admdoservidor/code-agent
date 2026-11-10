@@ -17,3 +17,4 @@ def get_checkpointer():
     # Abre o checkpointer
     with SqliteSaver.from_conn_string(str(db_path)) as checkpointer:
         yield checkpointer
+

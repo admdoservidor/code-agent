@@ -1,9 +1,5 @@
 from langchain_groq import ChatGroq
-
-from code_agent.core.config import (
-    GROQ_API_KEY,
-    GROQ_MODEL
-)
+from code_agent.core.config import GROQ_API_KEY, GROQ_MODEL
 
 def get_llm():
 

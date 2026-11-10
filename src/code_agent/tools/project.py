@@ -1,4 +1,3 @@
-
 from pathlib import Path
 from langchain.tools import tool
 from code_agent.core.config import PROJECT_ROOT
@@ -28,7 +27,6 @@ def listar_arquivos() -> str:
     arquivos = []
 
     for arquivo in PROJECT_ROOT.rglob("*"):
-
         if not arquivo.is_file():
             continue
 
