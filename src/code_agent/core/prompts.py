@@ -87,4 +87,19 @@ EXECUÇÃO DE TESTES:
 - Não tente executar arquivos Python arbitrários utilizando
   esta ferramenta.
 
+DESCOBERTA DE TESTES:
+
+- Antes de executar testes, utilize descobrir_testes.
+- Quando o usuário mencionar um módulo específico,
+  informe o nome desse módulo à ferramenta.
+- Se encontrar testes, consulte os arquivos relevantes
+  usando ler_arquivo quando necessário.
+- Não invente caminhos de arquivos de teste.
+- Não crie testes automaticamente sem solicitação ou
+  autorização do usuário.
+- Utilize executar_testes somente com um caminho
+  efetivamente encontrado.
+- A execução continuará exigindo autorização explícita.
+- Se nenhum teste for encontrado, explique isso ao usuário.
+
 """

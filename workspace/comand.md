@@ -1,18 +1,14 @@
-Crie um arquivo `tests/test_calculadora.py` para testar a implementação existente em `calculadora.py`.
+Vamos criar testes automatizados para calculadora.py.
 
-Antes de escrever os testes:
-1. Utilize listar_arquivos para identificar os arquivos do projeto.
-2. Utilize ler_arquivo para consultar calculadora.py.
-3. Analise a implementação da classe Calculadora.
-4. Crie testes compatíveis com os métodos realmente existentes.
+Siga este procedimento:
 
-Inclua testes para:
-- Soma.
-- Subtração.
-- Multiplicação.
-- Divisão.
-- Divisão por zero, caso esse comportamento esteja implementado.
+1. Utilize ler_arquivo para consultar calculadora.py.
+2. Analise as classes, funções, métodos, parâmetros e comportamentos existentes.
+3. Utilize calculadora.md como referência adicional, se necessário.
+4. Planeje testes com pytest para os comportamentos realmente implementados.
+5. Considere casos normais, valores negativos, entradas inválidas e divisão por zero, quando aplicáveis.
+6. Não altere calculadora.py nem outros arquivos existentes.
+7. Utilize criar_arquivo para propor a criação de workspace/tests/test_calculadora.py.
+8. Apresente o conteúdo completo e aguarde minha autorização antes de criar o arquivo.
 
-Utilize pytest e não altere calculadora.py.
-
-Apresente o conteúdo e solicite minha autorização antes de criar o arquivo.
+Não invente métodos ou comportamentos que não existam na implementação.

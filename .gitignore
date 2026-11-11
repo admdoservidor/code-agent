@@ -9,3 +9,5 @@ git-comandos
 
 data/*.sqlite
 data/*.sqlite-*
+
+nvchat.py

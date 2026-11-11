@@ -37,7 +37,7 @@ def main():
         return
 
     with get_checkpointer() as checkpointer:
-
+        
         agent = create_coding_agent(
             checkpointer=checkpointer
         )
